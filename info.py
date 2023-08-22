@@ -41,7 +41,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001870756864'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MR_X_MIRROR')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'owner_of_qtmve')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
@@ -82,10 +82,10 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ📥"
-DOWNLOAD_TEXT_URL = "https://t.me/qtmve_linkzZ/340"
+DOWNLOAD_TEXT_URL = ""
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "❤️JOIN❤️‍"
-CAPTION_BUTTON_URL = "https://t.me/qtmve_linkzZ"
+CAPTION_BUTTON_URL = "https://t.me/qtmve_linkzZz"
 
    # Auto Delete For Bot Sending Files #
